@@ -1,0 +1,9 @@
+fruits={"apple":10, "mango":12, "banana":18, "pear":6}
+a=list(fruits.values())
+s=0
+for i in a:
+    if i>s:
+        s=i
+for i in fruits.keys():
+    if fruits[i]==s:
+        print(i)
