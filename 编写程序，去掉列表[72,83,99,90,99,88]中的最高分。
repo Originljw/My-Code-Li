@@ -1,0 +1,6 @@
+s=[72,83,99,90,99,88]
+a=[]
+for i in s:
+    if i<max(s):
+        a.append(i)
+print(a)
