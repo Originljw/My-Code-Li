@@ -1,0 +1,12 @@
+import turtle as lijiawen,random
+color=["red","blue","green","orange","purple"]
+lijiawen.penup()
+for l in range(5):
+    a = random.randint(20, 50)
+    x = random.randint(-100, 100)
+    y = random.randint(-100, 100)
+    lijiawen.color(random.sample(color, 1))
+    lijiawen.goto(x, y)
+    lijiawen.pendown()
+    lijiawen.circle(a)
+    lijiawen.penup()
