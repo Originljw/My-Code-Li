@@ -1,0 +1,12 @@
+a1=list(map(str,input().split()))
+b1=list(map(str,input().split()))
+a=a1[1:]
+b=b1[1:]
+s=[]
+for i in a:
+    if i not in b and i not in s:
+        s.append(i)
+for i in b:
+    if i not in a and i not in s:
+        s.append(i)
+print(" ".join(s))
