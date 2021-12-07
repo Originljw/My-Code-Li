@@ -1,0 +1,61 @@
+import turtle as t
+
+
+t.speed(6)
+t.hideturtle()
+t.color('black')
+t.pensize(10)
+#一
+t.penup()
+t.goto(-400,0)
+t.pendown()
+t.forward(100)
+#|
+t.penup()
+t.goto(-350,60)
+t.right(90)
+t.pendown()
+t.forward(200)
+#丿
+t.penup()
+t.goto(-350,0)
+t.pendown()
+t.right(45)
+t.forward(80)
+#捺
+t.penup()
+t.goto(-350,0)
+t.pendown()
+t.left(90)
+t.forward(65)
+#一
+t.penup()
+t.goto(-280,-20)
+t.pendown()
+t.left(45)
+t.forward(100)
+#|
+t.penup()
+t.goto(-230,60)
+t.pendown()
+t.right(90)
+t.forward(180)
+#一
+t.penup()
+t.goto(-300,-120)
+t.pendown()
+t.left(90)
+t.forward(160)
+
+t.penup()
+t.goto(0,60)
+t.pendown()
+t.right(135)
+for i in range(4):
+    t.right(7)
+    t.forward(20)
+t.left(63)
+t.forward(100)
+for x in range(6):
+    t.right(3)
+    t.forward(14)
