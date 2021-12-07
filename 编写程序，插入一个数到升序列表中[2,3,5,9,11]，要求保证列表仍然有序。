@@ -1,0 +1,5 @@
+a=[2,3,5,9,11]
+s=eval(input("请输入数字:"))
+a.append(s)
+b=sorted(a)
+print(b)
