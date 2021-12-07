@@ -1,0 +1,8 @@
+import turtle as lijiawen
+lijiawen.pencolor()
+lijiawen.fillcolor("yellow")
+lijiawen.begin_fill()
+for i in range(5):
+    lijiawen.forward(200)
+    lijiawen.right(144)
+lijiawen.end_fill()
