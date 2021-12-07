@@ -1,0 +1,6 @@
+s=["sea","god","bicycle","brown","purple","banana"]
+a=["sea","god","bicycle","brown","purple","banana"]
+for i in s:
+    if i.startswith("b"):
+        a.remove(i)
+print(a)
