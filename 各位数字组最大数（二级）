@@ -1,0 +1,16 @@
+n=input("请输入一个0-1018之间的自然数:")
+list1=[]
+a=str(n)
+for i in a:
+    list1.append(int(i))
+    list1.sort(reverse = True)
+print("".join(str(i) for i in list1))
+问题 T: 4.25 验证登录
+s=input("请输入账号：")
+n=input("请输入密码：")
+a="admin"
+b="Upc2019"
+if s==a and n==b:
+    print("succeed")
+else:
+    print("failed")
