@@ -1,0 +1,14 @@
+s=input("请输入手机账号:")
+a=[]
+b=[]
+if len(s)!=11:
+    a.append("输入长度错误")
+if s.isdigit()!=True:
+    a.append("包含非法字符")
+if s[0:1]!= "1":
+    a.append("必须以数字1开头")
+if a==b:
+    print("注册账号输入正确")
+else:
+    for i in a:
+        print(i)
