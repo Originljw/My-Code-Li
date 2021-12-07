@@ -1,0 +1,7 @@
+import turtle as lijiawen
+for i in range(3):
+    lijiawen.pendown()
+    lijiawen.circle(50*(i+1))
+    lijiawen.penup()
+    lijiawen.goto(0,-50*(i+1))
+    lijiawen.pendown()
