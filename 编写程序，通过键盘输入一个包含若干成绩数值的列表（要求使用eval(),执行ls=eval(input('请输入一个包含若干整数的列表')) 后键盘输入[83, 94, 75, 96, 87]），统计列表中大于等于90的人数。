@@ -1,0 +1,6 @@
+ls=eval(input('请输入一个包含若干整数的列表'))
+a=[]
+for i in ls:
+    if i>=90:
+        a.append(i)
+print(len(a))
