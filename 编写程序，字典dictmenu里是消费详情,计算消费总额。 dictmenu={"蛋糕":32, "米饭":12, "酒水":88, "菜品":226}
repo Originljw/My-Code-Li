@@ -1,0 +1,3 @@
+dictmenu={"蛋糕":32, "米饭":12, "酒水":88, "菜品":226}
+a=list(dictmenu.values())
+print((sum(a)))
